@@ -1,0 +1,171 @@
+
+	/* GERAL */
+	
+	html {
+		margin-top: 0px; 
+		margin-bottom: 0px;
+	}
+
+	@font-face {
+		font-family: 'Vortex Group';
+		src: url('fonts/azo-sans-regular.otf') format('opentype');
+	}
+
+	.revo-slider-emphasis-text {
+			font-size: 64px;
+			font-weight: 700;
+			letter-spacing: -1px;
+			font-family: 'Poppins', sans-serif;
+			padding: 15px 20px;
+			border-top: 2px solid #FFF;
+			border-bottom: 2px solid #FFF;
+		}
+
+		.revo-slider-desc-text {
+			font-size: 20px;
+			font-family: 'Lato', sans-serif;
+			width: 650px;
+			text-align: center;
+			line-height: 1.5;
+		}
+
+		.revo-slider-caps-text {
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 3px;
+			font-family: 'Poppins', sans-serif;
+		}
+
+		.tp-video-play-button { display: none !important; }
+
+		.tp-caption { white-space: nowrap; }
+
+		.slider-element .container{
+			margin-top: 200px !important;
+		}
+
+	/* LOGO */
+	#logo a {
+		margin: 20px;
+	}
+
+	.dark {
+    	--cnvs-contrast-bg: #091e37 !important;
+	}
+
+	.is-expanded-menu .full-header #logo {
+		border: none !important;
+	}
+
+/* Landing */
+	.form-leadvision {
+		text-align: justify;
+		/*position: fixed;*/
+	}
+
+	.card{
+		--bs-card-bg: rgba(0, 0, 0, 0);
+		border: none;
+	}
+	
+	.card-body {
+		/* efeito */
+		background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) !important;
+		backdrop-filter: blur(10px) !important;
+		-webkit-backdrop-filter: blur(10px) !important;
+		border-radius: 20px !important;
+		/*border: 1px solid rgba(255, 255, 255, 0.18) !important;*/
+		/*box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37) !important;*/
+		border: none !important;
+	}	
+
+	/* NAVbar */
+	.is-expanded-menu #header.full-header.transparent-header #header-wrap {
+		border: none !important;
+	}	
+
+	.is-expanded-menu .full-header .primary-menu .menu-container {
+		border: none !important;
+	}
+
+	/* FOOTER */
+
+	.dark #copyrights, #copyrights.dark {
+		background-color: #091e37;
+		color: rgb(255 255 255 / 51%);
+	}
+
+	#footer {
+		background-color: #091e37 !important;
+	}
+
+	/* Adicionais */
+	:root {
+		--cnvs-themecolor: #091e37 !important; /*Cor do gotoTop pressionado*/
+	}
+
+	/* MEDIA QUERYS */
+	@media only screen and (max-width: 767px){
+		.vertical-middle {
+			margin-top: 0px;
+		}
+		.slider-inner{
+			margin-top: -100px !important;
+		}
+		#slider {
+			margin-top: -121px !important;
+		}
+
+		#header-wrap #logo img {
+			height: 60px;
+		}
+
+		img.alignright {
+			margin-top: -52px !important;
+		}
+}
+
+	@media only screen and (max-width: 764px){
+		.vertical-middle {
+			margin-top: 60px;	
+		}
+}
+
+	@media only screen and (min-width: 768px) and (max-width: 991px){
+		.vertical-middle {
+			margin-top: -85px;	
+		}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px){
+		html{
+			margin-top: -10px;
+			margin-bottom: -10px;
+		}
+}
+
+@media only screen and (min-width: 995px) and (max-width: 1024px){
+
+		.slider-element .container {
+			margin-top: 199px !important;
+		}
+
+		.vertical-middle {
+			margin-top: -30px !important;
+			padding-bottom: 99px;	
+		}
+
+		.heading-block h1{
+			font-size: 30px !important;
+		}
+
+		.heading-block span{
+			font-size: 17px !important;
+		}
+}
+
+@media only screen and (min-width: 1535px){
+		.vertical-middle {		
+			padding-bottom: 99px !important;	
+		}
+}
